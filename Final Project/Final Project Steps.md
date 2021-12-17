@@ -1,7 +1,41 @@
 **Final Project Steps**
-
+ # Table of Contents 
 -------------------------------------------------------
-# Samba File Server 
+* How to Build your own Samba file server
+* Table of contents
+* Project Description
+* Requirement
+* Download Samba server
+* Setting up The server Environment
+     * Virtual Machine 
+ * Open samba Installation
+ * Login Details
+ * First step in Samba server 
+     * Configuring your samba 
+     * Then Add a user
+ * Work Cited
+  
+  # Project Descriptions
+  -------------------------------------------------------
+  In This Project, I'm creating A samba file Server, samba is to create seamless file and printer sharing to SMB/CIFS clients from a Linux server/desktop, With Samba you can even connect that Linux machine to a Windows Domain. But before you can tackle the more challenging aspects of Samba.
+
+  # Requirments
+  --------------------------------------------------
+   * Install and enable samba
+   * sharing a directory inside /home
+   * sharing a directory for many users
+   * Managing samba users
+   * change a samab user password
+   * Remove a samba user
+   * Troubleshooting and logs
+   * Trouble with accessing the share 
+  
+  # A Virtual Machine 
+    * 2048 MB as memory
+    * 2 processors
+    * 128 as video memory
+  
+
  **First I made a copy from my Virtual Machine to start my Project**
 
  **Then i Start to Install the Samba on my Virtual Machine**
@@ -79,3 +113,7 @@ Where USER is the user to be added.
 Where USER is the user to be enabled.
 
 **Now i have Samba file server to the new share.**
+
+
+# Work Cited 
+  **xiao Guoan, How to install and configure a samba server  https://www.linuxbabe.com/ubuntu/install-samba-server-file-share** . 
